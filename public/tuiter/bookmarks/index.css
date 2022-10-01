@@ -1,0 +1,184 @@
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.red{
+    color:red;
+}
+
+.wd-reactions .wd-number{
+    padding-left: 12px;
+}
+
+.wd-icons .wd-links{
+    color: lightgrey;
+}
+
+.wd-reactions .wd-icons{
+    color: lightgrey;
+}
+
+
+.wd-emojis .wd-reactions {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+
+.wd-profile-info .wd-emojis {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.wd-text-below-image-borders .wd-link-1{
+    color: rgb(47, 51, 54);
+    padding: 0 12px 12px 12px;
+    margin: auto;
+
+}
+
+.wd-text-below-image-borders .wd-text-below-image{
+    font-size:15px;
+    color: rgb(47, 51, 54);
+    padding: 0 12px 12px 12px;
+    margin: auto;
+}
+
+.wd-text-below-image-borders .wd-title{
+    margin: auto;
+    font-size: 15px;
+    padding:12px;
+}
+
+
+
+.wd-bookmark-info .wd-text-below-image-borders{
+    display:block;
+}
+
+.wd-profile-name .wd-text-beside-profile-p1{
+    font-size: 15px;
+}
+
+.wd-profile-name .wd-text-beside-profile-p2{
+    color: grey;
+    font-size: 15px;
+}
+
+.wd-profile-name >h4{
+    display: inline;
+}
+
+.wd-parent-flex-container2 .wd-profile-name{
+    width: 88%;
+}
+
+.wd-profile-outline .wd-icon-1{
+    width: 10%;
+    color: grey;
+}
+
+.wd-profile-info .wd-profile-outline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.wd-profile-info .wd-profile-details{
+    display: block;
+}
+
+.wd-profile-details .wd-bio{
+    text-align: justify;
+    margin: 0;
+    max-width: 506px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+}
+
+.wd-bio .wd-text-bio{
+    font-size:15px;
+    margin-bottom:12px;
+}
+
+.wd-profile-info .wd-bookmark-info{
+    border: 1px solid rgb(47, 51, 54);
+    border-radius: 10px;
+    width: 504px;
+}
+
+.wd-rounded-corners-all-around-profile-image {
+    border-radius: 48px;
+}
+
+.wd-parent-flex-container .wd-profile-image {
+    display: block;
+}
+
+.wd-parent-flex-container .wd-parent-flex-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-left: 16px;
+    padding-top: 12px;
+    border-bottom: 1px solid rgb(49,51,54);
+}
+
+
+.wd-parent-flex-container .wd-profile-info{
+    padding-left: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-parent-flex-container .wd-outline-1 .wd-icon{
+    width: 10%;
+    color: rgb(29,161,242);
+}
+
+
+.wd-parent-flex-container .wd-heading-p1{
+    font-size:20px;
+    margin:auto;
+}
+
+.wd-parent-flex-container  .wd-heading-p2{
+    margin:auto;
+    font-size:13px;
+    color: grey;
+}
+
+.wd-parent-flex-container  .wd-outline-1{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom:1px solid rgb(47, 51, 54);
+
+}
+
+.wd-parent-flex-container .wd-heading{
+    width:90%;
+}
+
+.wd-parent-flex-container{
+    display:flex;
+    flex-direction: column;
+    margin: 0 28% 0 28%;
+    border-right: 2px solid rgb(49,51,54);
+    border-left: 2px solid rgb(49,51,54);
+    justify-content: space-between;
+}
+
