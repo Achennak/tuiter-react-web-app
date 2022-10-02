@@ -27,8 +27,6 @@ a:-webkit-any-link {
     margin: auto;
 }
 
-
-
 .wd-profile-info .wd-emojis {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -38,7 +36,7 @@ a:-webkit-any-link {
 }
 
 .wd-text-below-image-borders .wd-link-1{
-    color: rgb(47, 51, 54);
+    color: grey;
     padding: 0 12px 12px 12px;
     margin: auto;
 
@@ -46,7 +44,7 @@ a:-webkit-any-link {
 
 .wd-text-below-image-borders .wd-text-below-image{
     font-size:15px;
-    color: rgb(47, 51, 54);
+    color: grey;
     padding: 0 12px 12px 12px;
     margin: auto;
 }

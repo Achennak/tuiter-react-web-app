@@ -220,7 +220,6 @@ p#id-selector-2 {
     color: white;
 }
 
-
 .rotate-list-items li {
     width: 100px;
     text-align: right;
@@ -239,8 +238,19 @@ p#id-selector-2 {
     background-color: red;
 }
 
+.rotate-list-1 {
+    transform: rotate(-12deg);
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
 .rotate-image {
     transform: rotate(-10deg);
+}
+
+.rotate-image-1{
+    transform: rotate(10deg);
 }
 
 .rotate-table {
@@ -268,8 +278,21 @@ p#id-selector-2 {
     height: 200px;
 }
 
+.gradients-linear-1{
+    background: linear-gradient(pink, white);
+    width: 300px;
+    height: 300px;
+}
+
 .gradients-radial {
     background: radial-gradient(yellow, blue);
+    width: 200px;
+    height: 200px;
+    color:white;
+}
+
+.gradients-radial-1{
+    background: radial-gradient(white, teal);
     width: 200px;
     height: 200px;
     color:white;
@@ -279,6 +302,15 @@ p#id-selector-2 {
     background:
             radial-gradient(
                     at top left, blue, red);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.gradients-positioned-1{
+    background:
+            radial-gradient(
+                    at top left, white, mediumpurple);
     width: 200px;
     height: 200px;
     color: white;
@@ -330,50 +362,17 @@ p#id-selector-2 {
 }
 
 
-.animation-keyframes1 {
+.animation-keyframes-1 {
     position: relative;
+    animation-duration: 7s;
     top: 0px;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    /*animation-name: slidein;*/
+    animation-name: slidein;
     width: 200px;
     height: 200px;
-    background-color: red;
+    background-color: mediumblue;
     color: white;
-}
-
-@keyframes slidein {
-    from {
-        position: relative;
-        top: 0px;
-        font-size: 100%;
-        margin-left: 100%;
-        width: 200px;
-        height: 200px;
-        background-color: yellow;
-        color: black;
-    } /* continued on right */
-    50% {
-        position: relative;
-        top: -200px;
-        font-size: 300%;
-        margin-left: 25%;
-        width: 400px;
-        height: 400px;
-        background-color: blue;
-        color: white;
-    }
-
-    to {
-        position: relative;
-        top: 0px;
-        font-size: 100%;
-        margin-left: 0%;
-        width: 200px;
-        height: 200px;
-        background-color: red;
-        color: white;
-    }
 }
 
 .flex-container {
@@ -467,6 +466,74 @@ p#id-selector-2 {
     flex-basis: 100%;
 }
 
+.flex-container-img-1 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-img-2 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: end;
+}
+
+.flex-container-img-3 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container-img-4 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container-img-5 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.flex-container-img-6 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container-img-7 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+}
+
+.flex-container-img-7 > .flex-box-img {
+    flex-basis: 100%;
+}
+
+.flex-box-img {
+    border: 5px gray solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+
 
 @media (min-width: 0px)
 and (max-width: 600px) {
@@ -492,7 +559,7 @@ and (max-width: 1200px) {
     }
 }
 
-/*@media (min-width: 1200px)
+@media (min-width: 1200px)
 and (max-width: 1800px) {
     body {
         background-color: red;
@@ -502,44 +569,53 @@ and (max-width: 1800px) {
         background-color: blue;
         color: white;
     }
-}*/
+}
 
 
 @media (min-width: 0px)
-and (max-width: 600px) {
+and (max-width: 400px) {
     body {
-        background-color: yellow;
+        background-color: grey;
     }
-    .media-query1 {
-        background-color: red;
+    .media-query-1 {
+        background-color: pink;
         color: white;
     }
 }
 
 
 @media (min-width: 600px)
-and (max-width: 1200px) {
+and (max-width: 1000px) {
     body {
-        background-color: blue;
+        background-color: lightblue;
         color: white;
     }
-    .media-query1 {
-        background-color: yellow;
-        color: black;
+    .media-query-1 {
+        background-color: teal;
+        color: white;
     }
 }
 
-/*@media (min-width: 1200px)
-and (max-width: 1800px) {
+@media (min-width: 1200px)
+and (max-width: 1300px) {
     body {
-        background-color: red;
+        background-color: coral;
         color: white;
     }
-    .media-query1 {
+    .media-query-1 {
         background-color: blue;
         color: white;
     }
-}*/
+}
+
+
+@media (min-width: 1200px)
+and (max-width: 1800px) {
+    .media-query-3 {
+        background-color: palegreen;
+        color: white;
+    }
+}
 
 
 
