@@ -3,123 +3,323 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="index.css"
-          rel="stylesheet"/>
-    <link href="../style.css"
-          rel="stylesheet"/>
-    <script src="https://kit.fontawesome.com/dda9471386.js" crossorigin="anonymous"></script>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="wd-padding-container">
-    <div class="wd-part-1">
-        <div class="wd-search-bar">
-            <i class="fa fa-search wd-search-icon"></i>
-            <input class="wd-search-bar-1" type="search" placeholder="Search Tuiter"/>
+<div class="container d-flex pt-1">
+
+    <div class="row">
+        <div class="col-xl-2 col-xxl-2 col-sm-2 col-md-2 col-lg-1">
+            <div class="list-group">
+                <div class="list-group-item list-group-item-action">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <a href="home.html"
+                   class="list-group-item list-group-item-action">
+                    <div class="d-flex">
+                        <div><i class="fas fa-home"></i></div>
+                        <div class="d-none d-xl-block d-xxl-block ms-1">
+                            Home</div>
+                    </div>
+                </a>
+
+                <a href="explore.html"
+                   class="list-group-item list-group-item-action active">
+                    <div class="d-flex align-items-center ">
+                        <i class="fas fa-hashtag"></i>
+                        <div class="d-none d-xl-block d-xxl-block ms-1">Explore</div>
+                    </div>
+                </a>
+                <a href="notification.html"
+                   class="list-group-item list-group-item-action">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-bell"></i>
+                        <div class="d-none d-xl-block d-xxl-block ms-1">Notifications</div>
+                    </div>
+
+                </a>
+                <a href="message.html"
+                   class="list-group-item list-group-item-action">
+                    <div class="d-flex align-items-center ">
+                        <i class="fas fa-envelope"></i>
+                        <div class="d-none d-xl-block d-xxl-block ms-1">Messages</div>
+                    </div>
+                </a>
+                <a href="bookmarks.html"
+                   class="list-group-item list-group-item-action ">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-bookmark"></i>
+                        <div class="d-none d-xl-block d-xxl-block ms-1">
+                            Bookmarks
+                        </div>
+                    </div>
+                </a>
+
+                <a href="lists.html"
+                   class="list-group-item list-group-item-action ">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-list"></i>
+                        <div class="d-none  d-xl-block d-xxl-block ms-1">
+                            Lists
+                        </div>
+                    </div>
+                </a>
+
+                <a href="profile.html"
+                   class="list-group-item list-group-item-action ">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-user"></i>
+                        <div class="d-none d-xl-block d-xxl-block ms-1">
+                            Profile
+                        </div>
+                    </div>
+                </a>
+
+                <a href="more.html"
+                   class="list-group-item list-group-item-action ">
+                    <div class="d-flex align-items-center">
+                        <i class="fal fa-ellipsis-h"></i>
+                        <div class="d-none d-xl-block d-xxl-block ms-1">
+                            More
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <button class="btn btn-primary w-100 mt-1 rounded-pill">
+                Tuit
+            </button>
+
         </div>
-        <div class="wd-settings">
-            <a href="explore-settings.html"><i class="fa fa-thin fa-gear wd-settings-icon"></i></a>
+        <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10">
+
+            <div class="row d-flex align-items-center">
+                <div class="col-10">
+                    <div class="position-relative">
+                        <input class="ps-5 form-control rounded-pill" placeholder="Search Tuiter"/>
+                        <div class="position-absolute wd-search-tuiter">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <i class="text-primary fas fa-cog"></i>
+                </div>
+            </div>
+
+            <ul class="nav nav-tabs mt-1 mb-1">
+                <li class="nav-item">
+                    <a class="nav-link active" href="for-you.html">
+                        For You
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trending.html">
+                        Trending
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html,">
+                        News
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sports.html" tabindex="-1">
+                        Sports
+                    </a>
+                </li>
+                <li class="nav-item d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                    <a class="nav-link" href="entertainment.html" tabindex="-1">
+                        Entertainment
+                    </a>
+                </li>
+            </ul>
+            <div>
+                <div class="position-relative">
+                    <img src="../../images/starship.jpeg" width="100%"/>
+                    <h1 class="position-absolute bottom-0 left-0 text-white ms-2">
+                        SpaceX's Starship</h1>
+                </div>
+
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="text-secondary">
+                                    Web Development
+                                </div>
+                                <div class="fw-bolder">
+                                    ReactJS <i class="fas fa-check-circle"></i> - 2h
+                                </div>
+                                <div class="fw-bolder">
+                                    CSS is a powerful language allowing complex Web page styling and
+                                    layout. Various patterns and best practices have appeared.
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <img class="float-end rounded-3" src="../../images/react.png"
+                                     width="100px" height="100px">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="text-secondary">
+                                    Web Development
+                                </div>
+                                <div class="fw-bolder">
+                                    JQuery <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="fw-bolder">
+                                    The .container-fluid class just defines a constant thin margin
+                                    all
+                                    around the document.
+
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <img class="float-end rounded-3" src="../../images/jquery.png"
+                                     width="100px" height="100px">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="text-secondary">
+                                    Web Development
+                                </div>
+                                <div class="fw-bolder">
+                                    TELSA <i class="fas fa-check-circle"></i> - 2h
+                                </div>
+                                <div class="text-secondary">
+                                    123k Tuits
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <img class="float-end rounded-3" src="../../images/tesla.png"
+                                     width="100px" height="100px">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="text-secondary">
+                                    Web Development
+                                </div>
+                                <div class="fw-bolder">
+                                    JAVA <i class="fas fa-check-circle"></i> - 4h
+
+                                </div>
+                                <div class="text-secondary">
+                                    123k Tuits
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <img class="float-end rounded-3" src="../../images/java.png"
+                                     width="100px" height="100px">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="wd-nav-tabs wd-part-2">
-        <div class="wd-selected-blue"> For you</div>
-        <div class="wd-selected-grey">Trending</div>
-        <div class="wd-selected-grey">COVID-19</div>
-        <div class="wd-selected-grey">News</div>
-        <div class="wd-selected-grey">Sports</div>
-        <div class="wd-selected-grey">Entertainment</div>
-    </div>
+        <div class="d-none d-lg-block d-xl-block d-xxl-block col-4">
+            <div class="list-group ">
+                <div class="list-group-item list-group-item-action fw-bold">
+                    Who to Follow
+                </div>
 
-    <div class="wd-part-3"></div>
-    <div class="wd-part-4">
-        <div class="wd-trending-1">
-            <div class="wd-topic-heading">
-                <p class="wd-colour">Trending in Science</p>
-                <h3>Starship</h3>
-                <p style="text-align:justify">There are many variations of passages of Lorem Ipsum
-                    available, but the majority have
-                    suffered alteration in some form, by injected humour, or randomised words which
-                    don't
-                    look even slightly believable.All the Lorem Ipsum generators on the Internet
-                    tend to
-                    repeat predefined chunks as necessary, making this the first true generator on
-                    the
-                    Internet. It uses a dictionary of over 200 Latin words, combined with a handful
-                    of model
-                    sentence structures, to generate Lorem Ipsum which looks reasonable. </p>
-                <p class="wd-colour">55.5K views</p>
-            </div>
-            <div class="wd-ellipse">...</div>
+                <a href="https://en.wikipedia.org/wiki/Dune_(novel)"
+                   class="list-group-item list-group-item-action">
+                    <div class="d-flex ">
+                        <div class="align-items-stretch">
+                            <img class="rounded-circle" src="../../images/java.png" width="50px"
+                                 height="50px">
+                        </div>
+                        <div class="w-75 ms-2">
+                            <h6 class="fw-bold">JAVA <i class="fas fa-check-circle"></i></h6>
+                            <h6 class="text-secondary">@java</h6>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary float-end btn-sm rounded-pill">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </a>
 
-        </div>
-
-        <div class="wd-trending-1">
-            <div class="wd-topic-heading">
-                <p class="wd-colour">Sports Trending</p>
-                <h3>CNN's Cuomo Conundrum</h3>
-                <p class="wd-colour">2,897 Tweets</p>
-            </div>
-            <div class="wd-ellipse">...</div>
-        </div>
-    </div>
-
-    <div class="wd-part-5">
-        <div class="wd-trending-2">
-            <div class="wd-article-D">
-                <p>The NewYork Times &#10003;
-                    <span class="wd-display-inline wd-colour">
-     .Yesterday</span>
-                </p>
-                <h3 class="wd-article-D-title">Hurricane Ian closes in on Florida, targets Gulf
-                    Coast for landfall</h3>
-            </div>
-            <div class="wd-article-D-image"><img class="wd-rounded-corners-all-around-images"
-                                                 width=100px
-                                                 src="https://s.france24.com/media/display/6c6b3d0a-3e31-11ed-9d22-005056a97e36/w:1280/p:16x9/000_32K694V.webp"/>
-            </div>
-        </div>
-
-        <div class="wd-trending-2">
-            <div class="wd-article-D">
-                <p> Bloomberg Opinion &#10003;
-                    <span class="wd-display-inline wd-colour">.Now</span></p>
-                <h3>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-                    in a piece of classical Latin literature from 45 BC.</h3>
-            </div>
-            <div class="wd-article-D-image">
-                <iframe class=" wd-rounded-corners-all-around-video" width="100px" height="70px"
-                        src="https://www.youtube.com/embed/L4NSb8jZ-9w"
-                        title="Friends: The Reunion | Full Episode | HBO Max"
-                        allowfullscreen></iframe>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="wd-part-5">
-        <div class="wd-trending-2">
-            <div class="wd-article-D">
-                <h4 class="wd-colour">Covid-19. Live</h4>
-                <h3>Covid-19:News and Updates for Massachusetts</h3>
-            </div>
-            <div class="wd-article-D-image"><img class="wd-rounded-corners-all-around-images"
-                                                 width=100px
-                                                 src="https://cdn.who.int/media/images/default-source/mca/mca-covid-19/coronavirus-2.tmb-1920v.jpg?sfvrsn=4dba955c_12"/>
-            </div>
-        </div>
-
-        <div class="wd-trending-2">
-            <div class="wd-article-D">
-                <h4 class="wd-colour">#NationalCoffeeDay</h4>
-                <h3>It's National Coffee Day in some countries! How are you cele-brew-ting?</h3>
-                <h4>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-                    in a piece of classical Latin literature from 45 BC, making it over 2000 years
-                    old.</h4>
-
-            </div>
-            <div class="wd-article-D-image">
-                <img class="wd-rounded-corners-all-around-images" width=100px
-                     src="coffee.jpeg"/>
+                <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
+                   class="list-group-item list-group-item-action">
+                    <div class="d-flex">
+                        <div class="align-items-stretch">
+                            <img class="rounded-circle" src="../../images/rel.jpeg" width="50px"
+                                 height="50px">
+                        </div>
+                        <div class="w-75 ms-2">
+                            <h6 class="fw-bold">Relativity Space <i class="fas fa-check-circle"></i>
+                            </h6>
+                            <h6 class="text-secondary">@relativityspace</h6>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary float-end btn-sm rounded-pill">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/The_Forever_War"
+                   class="list-group-item list-group-item-action">
+                    <div class="d-flex">
+                        <img class="rounded-circle" src="../../images/virgin.png" width="50px"
+                             height="50px">
+                        <div class="w-75 ms-2">
+                            <h6 class="fw-bold">Virgin galactic <i class="fas fa-check-circle"></i>
+                            </h6>
+                            <h6 class="text-secondary">@virgingalactic</h6>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary float-end btn-sm rounded-pill">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(novel)"
+                   class="list-group-item list-group-item-action">
+                    <div class="d-flex">
+                        <img class="rounded-circle" src="../../images/nasa1.jpeg" width="50px"
+                             height="50px">
+                        <div class="w-75 ms-2">
+                            <h6 class="fw-bold">NASA<i class="fas fa-check-circle"></i></h6>
+                            <h6 class="text-secondary">@NASA</h6>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary float-end btn-sm rounded-pill">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Ender%27s_Game"
+                   class="list-group-item list-group-item-action">
+                    <div class="d-flex">
+                        <img class="rounded-circle" src="../../images/tesla.png" width="50px"
+                             height="50px">
+                        <div class="w-75 ms-2">
+                            <h6 class="fw-bold">TESLA <i class="fas fa-check-circle"></i></h6>
+                            <h6 class="text-secondary">@Tesla</h6>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary float-end btn-sm rounded-pill">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
