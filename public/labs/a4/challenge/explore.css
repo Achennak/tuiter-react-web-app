@@ -1,0 +1,109 @@
+.wd-search-tuiter{
+    bottom: 7px;
+    left: 10px;
+    color: grey;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+
+.wd-nav-tabs .wd-selected-blue {
+    border-bottom: solid 3px rgb(29, 161, 242);
+    color: white;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.wd-nav-tabs .wd-selected-grey {
+    color: rgb(110, 118, 125);
+    padding: 16px;
+    font-size: 15px;
+}
+
+.wd-padding-container .wd-nav-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 98%;
+    padding-left: 2%;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.wd-border{
+    border-right: 2px solid rgb(49, 51, 54);
+    border-left: 2px solid rgb(49, 51, 54);
+}
+
+.wd-border-below{
+    border-bottom: 1px solid rgb(49, 51, 54);
+}
+
+.wd-float{
+    float:right;
+}
+
+.wd-text-pos{
+    bottom: 65px;
+    left: 0px;
+}
+
+.wd-font{
+    font-family:Calibri;
+}
+
+.wd-font-arial{
+    font-family:Arial;
+}
+
+.wd-bg-black-color{
+    background-color: black;
+}
+
+.wd-fg-color{
+    color: white;
+}
+
+.wd-border-radius{
+    border: 1px solid rgb(33, 35, 39);
+}
+
+.wd-bg-color{
+    background-color: rgb(33, 35, 39);
+}
+
+.wd-fg-dark-gray{
+    color: darkgray;
+}
+
+.wd-width{
+    width:1em;
+}
+
+.wd-button-fg{
+    color: black;
+}
+
+.wd-button-bg{
+    background-color: white;
+}
+
+.wd-button-border-color{
+    border-color: white;
+}
+
+.wd-fg-blue-color{
+    color: dodgerblue;
+}
+
+.wd-margin-left{
+    margin-left:10px;
+}
+
+
