@@ -10,8 +10,6 @@ body{
     color: white;
 }
 
-
-
 .wd-nav-tabs .wd-selected-blue {
     border-bottom: solid 3px rgb(29, 161, 242);
     color: white;
@@ -25,12 +23,11 @@ body{
     font-size: 15px;
 }
 
-.wd-padding-container .wd-nav-tabs {
+.wd-nav-tabs {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 98%;
-    padding-left: 2%;
+    width: 100%;
     text-align: center;
     font-weight: 600;
 }
@@ -98,12 +95,21 @@ body{
     border-color: white;
 }
 
-.wd-fg-blue-color{
-    color: dodgerblue;
-}
 
 .wd-margin-left{
     margin-left:10px;
+}
+
+.wd-padding-right{
+    padding-right: 0px;
+}
+
+.wd-bg-colour-blue{
+background-color: rgb(29, 161, 242);
+}
+
+.wd-fg-colour-blue{
+    color: rgb(29, 161, 242);
 }
 
 
