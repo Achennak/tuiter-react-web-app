@@ -1,8 +1,4 @@
-a:-webkit-any-link {
-    color: -webkit-link;
-    text-decoration: underline;
-    cursor: pointer;
-}
+
 
 .red{
     color:red;
@@ -110,18 +106,18 @@ a:-webkit-any-link {
 .wd-profile-info .wd-bookmark-info{
     border: 1px solid rgb(47, 51, 54);
     border-radius: 10px;
-    width: 504px;
+    width: 100%;
 }
 
 .wd-rounded-corners-all-around-profile-image {
     border-radius: 48px;
 }
 
-.wd-parent-flex-container .wd-profile-image {
+ .wd-profile-image {
     display: block;
 }
 
-.wd-parent-flex-container .wd-parent-flex-container2 {
+.wd-parent-flex-container2 {
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -131,31 +127,31 @@ a:-webkit-any-link {
 }
 
 
-.wd-parent-flex-container .wd-profile-info{
+ .wd-profile-info{
     padding-left: 12px;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.wd-parent-flex-container .wd-outline-1 .wd-icon{
+ .wd-outline-1 .wd-icon{
     width: 10%;
     color: rgb(29,161,242);
 }
 
 
-.wd-parent-flex-container .wd-heading-p1{
+.wd-heading-p1{
     font-size:20px;
     margin:auto;
 }
 
-.wd-parent-flex-container  .wd-heading-p2{
+ .wd-heading-p2{
     margin:auto;
     font-size:13px;
     color: grey;
 }
 
-.wd-parent-flex-container  .wd-outline-1{
+ .wd-outline-1{
     flex-direction: row;
     display: flex;
     justify-content: space-between;
@@ -167,7 +163,7 @@ a:-webkit-any-link {
 
 }
 
-.wd-parent-flex-container .wd-heading{
+ .wd-heading{
     width:90%;
 }
 
