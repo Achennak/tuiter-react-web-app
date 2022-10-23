@@ -1,0 +1,176 @@
+
+
+.red{
+    color:red;
+}
+
+.wd-reactions .wd-number{
+    padding-left: 12px;
+}
+
+.wd-icons .wd-links{
+    color: grey;
+}
+
+.wd-reactions .wd-icons{
+    color: grey;
+}
+
+
+.wd-emojis .wd-reactions {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.wd-profile-info .wd-emojis {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.wd-text-below-image-borders .wd-link-1{
+    color: grey;
+    padding: 0 12px 12px 12px;
+    margin: auto;
+
+}
+
+.wd-text-below-image-borders .wd-text-below-image{
+    font-size:15px;
+    color: grey;
+    padding: 0 12px 12px 12px;
+    margin: auto;
+}
+
+.wd-text-below-image-borders .wd-title{
+    margin: auto;
+    font-size: 15px;
+    padding:12px;
+}
+
+
+
+.wd-bookmark-info .wd-text-below-image-borders{
+    display:block;
+}
+
+.wd-profile-name .wd-text-beside-profile-p1{
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.wd-profile-name .wd-text-beside-profile-p2{
+    color: grey;
+    font-size: 15px;
+}
+
+.wd-profile-name >h4{
+    display: inline;
+}
+
+.wd-parent-flex-container2 .wd-profile-name{
+    width: 88%;
+}
+
+.wd-profile-outline .wd-icon-1{
+    width: 10%;
+    color: grey;
+}
+
+.wd-profile-info .wd-profile-outline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.wd-profile-info .wd-profile-details{
+    display: block;
+}
+
+.wd-profile-details .wd-bio{
+    text-align: justify;
+    margin: 0;
+    max-width: 506px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+}
+
+.wd-bio .wd-text-bio{
+    font-size:15px;
+    margin-bottom:12px;
+}
+
+.wd-profile-info .wd-bookmark-info{
+    border: 1px solid rgb(47, 51, 54);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.wd-rounded-corners-all-around-profile-image {
+    border-radius: 48px;
+}
+
+.wd-profile-image {
+    display: block;
+}
+
+.wd-parent-flex-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+
+.wd-profile-info{
+    padding-left: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-outline-1 .wd-icon{
+    width: 10%;
+    color: rgb(29,161,242);
+}
+
+
+.wd-heading-p1{
+    font-size:20px;
+    margin:auto;
+}
+
+.wd-heading-p2{
+    margin:auto;
+    font-size:13px;
+    color: grey;
+}
+
+.wd-outline-1{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom:1px solid rgb(47, 51, 54);
+
+}
+
+.wd-heading{
+    width:90%;
+}
+
+.wd-rounded-top-corners-images{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+
