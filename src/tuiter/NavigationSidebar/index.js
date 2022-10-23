@@ -17,7 +17,7 @@ const NavigationSidebar = () => {
                 </div>
 
             </a>
-            <Link to="/tuiter/Home" className={`list-group-item ${active === 'home'?'active':''}`}>
+            <Link to="/tuiter/Home" className={`list-group-item ${active === 'Home'?'active':''}`}>
                 <div className="d-flex">
                     <div><i className="fas fa-home"></i></div>
                     <div className="d-none d-xl-block d-xxl-block ms-1">
