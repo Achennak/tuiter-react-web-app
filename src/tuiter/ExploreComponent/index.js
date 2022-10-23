@@ -1,8 +1,9 @@
 import React from "react";
 import PostSummaryList from "../PostSummaryList/index";
 import "./index.css";
+
 const ExploreComponent = () => {
-    return(
+    return (
         <>
             <div className="row">
                 <div className="col-11 position-relative">
@@ -21,20 +22,20 @@ const ExploreComponent = () => {
                     <a href="#" className="nav-link active">For You</a>
                 </li>
                 <li className="nav-item">
-                    <a  href="#" className="nav-link">Trending</a>
+                    <a href="#" className="nav-link">Trending</a>
                 </li>
                 <li className="nav-item">
-                    <a  href="#" className="nav-link">News</a>
+                    <a href="#" className="nav-link">News</a>
                 </li>
                 <li className="nav-item">
-                    <a  href="#" className="nav-link">Sports</a>
+                    <a href="#" className="nav-link">Sports</a>
                 </li>
                 <li className="nav-item">
-                    <a  href="#" className="nav-link">Entertainment</a>
+                    <a href="#" className="nav-link">Entertainment</a>
                 </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src={'./../images/starship.jpeg'} className="w-100"/>
+                <img alt="description of image" src={'./../images/starship.jpeg'} className="w-100"/>
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
             </div>
