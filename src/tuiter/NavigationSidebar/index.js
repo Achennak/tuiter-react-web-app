@@ -8,7 +8,7 @@ const NavigationSidebar = () => {
     const active = paths[2];
     return (
         <div className="list-group">
-            <a className="list-group-item">
+            <a href="#" className="list-group-item">
                 <div className="d-flex">
                     <i className="fab fa-twitter"></i>
                     <div className="d-none d-xl-block d-xxl-block ms-1">

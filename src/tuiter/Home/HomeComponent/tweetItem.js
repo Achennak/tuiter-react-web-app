@@ -40,7 +40,7 @@ const TweetItem = (
                     <div className="wd-profile-details">
                         <div className="wd-bio">
                             <p className="wd-text-bio"> {tweet.content}</p>
-                            <span class="wd-text-bio text-primary"><a>  {tweet.postExternalLink}</a></span>
+                            <span class="wd-text-bio text-primary"><span>{tweet.postExternalLink}</span></span>
                         </div>
                     </div>
                     <div className="wd-bookmark-info " id="image-info">
