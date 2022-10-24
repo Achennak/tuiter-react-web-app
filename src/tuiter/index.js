@@ -3,7 +3,7 @@ import WhoToFollowList from "./who-to-follow-list/index";
 import ExploreComponent from "./ExploreComponent/index";
 import React from "react";
 import {Routes, Route} from "react-router";
-import HomeComponent from "./Home/index";
+import HomeComponent from "./home/index";
 function Tuiter() {
     return(
 
