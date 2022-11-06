@@ -71,15 +71,14 @@ const NavigationSidebar = () => {
                     </div>
                 </div>
             </a>
-            <a href="../profile.html" className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
                 <div className="d-flex align-items-center">
-                    <i className="fas fa-user"></i>
+                    <div><i className="fas fa-user"></i></div>
                     <div className="d-none d-xl-block d-xxl-block ms-1">
                         Profile
                     </div>
                 </div>
-            </a>
+            </Link>
             <a href="more.html" className={`list-group-item
                     ${active === 'more'?'active':''}`}>
                 <div className="d-flex align-items-center">

@@ -1,10 +1,13 @@
 import React from "react";
-import TweetList from "./HomeComponent/tweetList";
+import WhatsHappening from "./whats-happening";
+import TuitsList from "../tuits/TuitsList";
 
 function Home() {
     return(
         <div>
-            <TweetList/>
+            <h4>Home</h4>
+            <WhatsHappening/>
+            <TuitsList/>
         </div>
     );
 
