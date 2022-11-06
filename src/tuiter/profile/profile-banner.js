@@ -4,15 +4,15 @@ const ProfileBanner = () => {
     return (
         <div>
             <div className="row">
-                <img src="../../images/hd.jpeg" alt="" width={100} height={210}/>
+                <img src="../../images/whale.jpeg" alt="" width={100} height={210}/>
             </div>
 
             <div className="">
                 <img className="position-absolute rounded-circle"
-                     src="../../images/fall.jpeg" alt=""
+                     src="../../images/ls.jpeg" alt=""
                      style={{
-                         height: "auto",
-                         width: "150px",
+                         height: "100px",
+                         width: "100px",
                          marginLeft: "15px",
                          marginTop: "-70px"
                      }}/>

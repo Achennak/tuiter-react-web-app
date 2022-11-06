@@ -13,21 +13,18 @@ const ProfileComponentMenu = () => {
                     <i className="fa-solid fa-arrow-left"></i>
                 </div>
                 <div className="col-11">
-                    <span className=" h5"> {profile.firstName} {profile.lastName} </span> <br/>
-                    <span className="text-secondary" style={{fontSize: "0.875em"}}>
+                    <h5> {profile.firstName} {profile.lastName} </h5>
+                    <span className="text-secondary" style={{fontSize: "0.9em"}}>
                         {profile.numberOfTweets} Tweets
                     </span>
                 </div>
             </div>
-
-
-         <ProfileBanner/>
-
-            <Link to={"/tuiter/edit-profile"} className="btn btn-light rounded-pill float-end fw-bold"
+            <ProfileBanner/>
+            <Link to={"/tuiter/edit-profile"}
+                  className="btn btn-light rounded-pill float-end fw-bold"
                   style={{marginTop: "-15px"}}>
                 Edit Profile
             </Link>
-
             <div>
                 <br/> <br/>
                 <span className="fw-bold"> <h5>{profile.firstName} {profile.lastName}</h5> </span>

@@ -14,7 +14,7 @@ const userProfile={
     dateJoined: '4/2009',
     followingCount: 340,
     followersCount: 223,
-    numberOfTweets:34
+    numberOfTweets:6114
 }
 
 
