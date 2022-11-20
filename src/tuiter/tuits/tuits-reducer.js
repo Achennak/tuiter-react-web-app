@@ -3,18 +3,18 @@ import tuits from './tuits.json';
 import {createTuitThunk,deleteTuitThunk, findTuitsThunk,updateTuitThunk}
     from "../../services/tuits-thunks";
 
-const currentUser = {
+/*const currentUser = {
     "userName": "NASA",
     "handle": "@nasa",
     "image": "../../images/rel.jpeg",
-};
+};*/
 
 const initialState = {
     tuits: [],
     loading: false
 }
 
-const templateTuit = {
+/*const templateTuit = {
     ...currentUser,
     "topic": "Space",
     "time": "1h",
@@ -22,7 +22,7 @@ const templateTuit = {
     "replies": 0,
     "retuits": 0,
     "likes": 0
-}
+}*/
 
 const tuitsSlice = createSlice({
                                    name: 'tuits',
@@ -67,7 +67,7 @@ const tuitsSlice = createSlice({
 
                                    },
 
-                                   reducers: {
+                                   /*reducers: {
                                        createTuit(state, action) {
                                            state.unshift({
                                                              ...action.payload,
@@ -82,7 +82,7 @@ const tuitsSlice = createSlice({
                                            state.splice(index, 1);
                                        }
 
-                                   }
+                                   }*/
 
                                });
 

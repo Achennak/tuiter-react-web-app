@@ -48,20 +48,20 @@ const TuitStats = ({tuits}) => {
     }
 
     return (
-        <div className="row ms-1 mt-3 text-secondary justify-content-between">
-            <div className="">
+        <div className="row ms-1 mt-3 text-secondary">
+            <div className="col-2 wd-width">
                 <Link to={""} className="nav-link">
                     <i className="fa-regular fa-comment"></i> &nbsp;
                     <span className="pl-sm-2"> {tuits.replies} </span>
                 </Link>
             </div>
-            <div className="">
+            <div className="col-2 wd-width">
                 <Link to={""} className="nav-link">
                     <i className="fa-solid fa-retweet"></i> &nbsp;
                     <span className="pl-sm-2"> {tuits.retuits} </span>
                 </Link>
             </div>
-            <div className="">
+            <div className="col-2 wd-width">
                 <Link onClick={changeLiked} className="nav-link" to={""}>
                     {
                         tuits.liked &&
@@ -75,7 +75,7 @@ const TuitStats = ({tuits}) => {
                     <span className="pl-sm-2"> {tuits.likes} </span>
                 </Link>
             </div>
-            <div className="">
+            <div className="col-2 wd-width">
                 <Link onClick={changeDisliked} className="nav-link" to={""}>
                     {
                         tuits.disliked &&
@@ -89,7 +89,7 @@ const TuitStats = ({tuits}) => {
                     <span className="pl-sm-2"> {tuits.dislikes} </span>
                 </Link>
             </div>
-            <div className="">
+            <div className="col-2 wd-width">
                 <Link to={""} className="nav-link">
                     <i className="fa-solid fa-arrow-up-from-bracket"></i>
                 </Link>

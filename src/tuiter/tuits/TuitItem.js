@@ -53,9 +53,8 @@ const TuitItem = (
                     <div className="wd-text-align" id="image-info">
                         <span className="wd-text-below-image">  {tuit.tuit}</span>
                     </div>
-                    <div className="flex flex-row">
+
                     <TuitStats tuits={tuit}/>
-                    </div>
                 </div>
             </div>
         </li>

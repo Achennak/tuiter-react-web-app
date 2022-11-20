@@ -4,8 +4,7 @@ import TuitItem from "./TuitItem";
 import {findTuitsThunk} from "../../services/tuits-thunks";
 
 const TuitsList = () => {
-    const {tuits, loading} = useSelector(
-        state => state.tuitsData)
+    const {tuits, loading} = useSelector(state => state.tuitsData)
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(findTuitsThunk())
@@ -13,13 +12,6 @@ const TuitsList = () => {
 
     return (
         <ul className="list-group">
-            {
-                loading &&
-                <li className="list-group-item">
-                    Loading...
-                </li>
-
-            }
             {tuits.map(post =>
                                 <TuitItem
                                     key={post._id} tuit={post}/>)
