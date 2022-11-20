@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
-import {createTuit} from "../tuits/tuits-reducer";
-
+import {createTuitThunk}
+    from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
@@ -11,14 +11,14 @@ const WhatsHappening = () => {
         const newTuit = {
             tuit: whatsHappening
         }
-        dispatch(createTuit(newTuit));
+        dispatch(createTuitThunk(newTuit));
 
         console.log(whatsHappening);
     }
     return (
         <div className="row">
             <div className="col-auto">
-                <img class="rounded-circle" src="../../images/virgin.png" width={50}/>
+                <img className="rounded-circle" src="../../images/virgin.png" width={50}/>
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"
