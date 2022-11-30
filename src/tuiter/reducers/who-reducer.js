@@ -6,4 +6,5 @@ const whoSlice = createSlice({
                                  initialState: whoArray
                              });
 
+
 export default whoSlice.reducer;
