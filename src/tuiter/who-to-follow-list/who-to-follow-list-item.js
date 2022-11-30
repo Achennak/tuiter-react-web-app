@@ -2,7 +2,7 @@ import React from "react";
 
 const WhoToFollowListItem = (
     {
-        who = { userName: 'NASA', handle: 'NASA', avatarIcon: 'https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png' }
+        who = { userName: 'NASA', handle: 'NASA', avatarIcon: 'nasa.png' }
     }
 
 ) => {
@@ -10,7 +10,7 @@ const WhoToFollowListItem = (
         <li className="list-group-item">
             <div className="d-flex">
                 <div className="align-items-stretch">
-                    <img alt="description of image" className="rounded-circle" height={48} src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png"/>
+                    <img alt="description of image" className="rounded-circle" height={48} src={`/images/${who.avatarIcon}`}/>
                 </div>
                 <div className="w-75 ms-2">
                     <div className="fw-bold">{who.userName}</div>
