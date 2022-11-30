@@ -10,7 +10,7 @@ const WhoToFollowListItem = (
         <li className="list-group-item">
             <div className="d-flex">
                 <div className="align-items-stretch">
-                    <img alt="description of image" className="rounded-circle" height={48} src={`${who.avatarIcon}`}/>
+                    <img alt="description of image" className="rounded-circle" height={48} src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png"/>
                 </div>
                 <div className="w-75 ms-2">
                     <div className="fw-bold">{who.userName}</div>
